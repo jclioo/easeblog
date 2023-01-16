@@ -16,6 +16,6 @@
 [[redirects]]
   from = "/api/*"
   to = "https://gitee.com/:splat"
-  status = 200
+  headers = {Referer = "https://gitee.com"}
   [redirects.headers]
     Referer = "https://gitee.com"
