@@ -4,11 +4,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
+    <a href="https://netlify.com" target="_blank">
       <img src="/fufu.jpg" class="logo" alt="Vite logo" />
     </a>
   </div>
-  <HelloWorld msg="jclio" />
+  <h1>HelloWorld!!</h1>
+  <HelloWorld msg="jclio 😀" />
 </template>
 
 <style scoped>
