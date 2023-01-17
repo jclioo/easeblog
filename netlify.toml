@@ -22,7 +22,7 @@
 
 
 [[redirects]]
-  from = "/api"
+  from = "/api/"
   to = "https://gitee.com/:splat"
   status = 200
   force = true
