@@ -19,7 +19,7 @@
   to = "https://jclio.top/api/:splat"
   status = 200
   force = true
-  headers = {Referer = "https://jclio.top", Origin = "https://jclio.top", content-type = "text/plain;charset=UTF-8"}
+  headers = {Referer = "https://assets.gitee.com", Origin = "https://assets.gitee.com"}
 
 
 [[redirects]]
@@ -27,6 +27,6 @@
   to = "https://gitee.com/:splat"
   status = 200
   force = true
-  headers = {Referer = "https://gitee.com", Origin = "https://gitee.com", content-type = "text/plain;charset=UTF-8"}
+  headers = {Referer = "https://gitee.com", Origin = "https://gitee.com", content-type = "application/json;charset=UTF-8"}
 
 

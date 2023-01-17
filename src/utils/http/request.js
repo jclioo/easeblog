@@ -7,7 +7,6 @@ export default function ({data}) {
             'Cache-Control': 'no-cache',
             'Pragma': 'no-cache',
             'Expires': '0',
-            'Content-Type':'text/plain;charset=UTF-8',
         },
         baseURL: baseUrl,
         timeout: 5000
