@@ -15,14 +15,6 @@
 
 
 [[redirects]]
-  from = "https://assets.gitee.com/*"
-  to = "https://jclio.top/api/:splat"
-  status = 200
-  force = true
-  headers = {Referer = "https://assets.gitee.com", Origin = "https://assets.gitee.com"}
-
-
-[[redirects]]
   from = "/api/*"
   to = "https://gitee.com/:splat"
   status = 200

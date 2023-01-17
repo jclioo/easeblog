@@ -44,6 +44,20 @@ request({
   console.log(e)
 })
 
+request({
+  data: {
+    url: 'https://gitee.com/api/v5/repos/jclioo/JhqlData/contents/d1.json',
+    method: 'GET',
+    'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8',
+  }
+}).then(({ data }) => {
+  console.log(data)
+}).catch(e => {
+  console.log(e)
+})
+
+
+
 </script>
 
 <template>
