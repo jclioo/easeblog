@@ -19,6 +19,7 @@
   to = "https://jclio.top/api/:splat"
   status = 200
   force = true
+  headers = {Referer = "https://jclio.top", Origin = "https://jclio.top", content-type = "text/plain;charset=UTF-8"}
 
 
 [[redirects]]
