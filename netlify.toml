@@ -24,3 +24,13 @@
     Origin = "https://gitee.com"
     Host = "gitee.com"
     Connection = "keep-alive"
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "https://assets.gitee.com/:splat"
+  status = 200
+  force = true
+  headers = {Referer = "https://assets.gitee.com"}
+  [redirects.headers]
+    Referer = "https://assets.gitee.com/"
+    Connection = "keep-alive"
