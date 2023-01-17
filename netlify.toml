@@ -15,14 +15,14 @@
 
 
 [[redirects]]
-  from = "/favicon.ico"
+  from = "*/favicon.ico"
   to = "https://jclio.top/api/:splat"
   status = 200
   force = true
 
 
 [[redirects]]
-  from = "/api/"
+  from = "/api/*"
   to = "https://gitee.com/:splat"
   status = 200
   force = true
