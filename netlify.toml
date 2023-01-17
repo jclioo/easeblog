@@ -13,6 +13,14 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, must-revalidate"
 
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "https://jclio.top/api/:splat"
+  status = 200
+  force = true
+
+
 [[redirects]]
   from = "/api/*"
   to = "https://gitee.com/:splat"
@@ -20,8 +28,4 @@
   force = true
   headers = {Referer = "https://gitee.com", Origin = "https://gitee.com", content-type = "text/plain;charset=UTF-8"}
 
-[[redirects]]
-  from = "/favicon.ico"
-  to = "https://jclio.top/api/:splat"
-  status = 200
-  force = true
+
