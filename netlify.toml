@@ -13,6 +13,12 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, must-revalidate"
 
+[[redirects]]
+  from = "/api/*"
+  to = "https://gitee.com/:splat"
+  status = 200
+  force = true
+  headers = {Referer = "https://gitee.com", Origin = "https://gitee.com", Host = "gitee.com"}
 
 [[redirects]]
   from = "/favicon.ico"
@@ -20,6 +26,3 @@
   status = 200
   force = true
   headers = {Referer = "https://assets.gitee.com"}
-  [redirects.headers]
-    Referer = "https://assets.gitee.com/"
-    Connection = "keep-alive"
