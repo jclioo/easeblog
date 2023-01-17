@@ -21,8 +21,7 @@
   headers = {Referer = "https://gitee.com", Origin = "https://gitee.com", content-type = "text/plain;charset=UTF-8"}
 
 [[redirects]]
-  from = "*/favicon.ico"
+  from = "/favicon.ico"
   to = "https://jclio.top/api/:splat"
   status = 200
   force = true
-  headers = {Referer = "https://jclio.top/api", content-type = "text/plain;charset=UTF-8"}
