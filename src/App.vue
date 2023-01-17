@@ -36,7 +36,7 @@ request({
   data: {
     url: '/jclioo/JhqlData/raw/master/i2.json',
     method: 'GET',
-    'Content-Type':'application/json;charset=UTF-8',
+    'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8',
   }
 }).then(({ data }) => {
   console.log(data)

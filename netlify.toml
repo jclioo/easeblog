@@ -27,6 +27,6 @@
   to = "https://gitee.com/:splat"
   status = 200
   force = true
-  headers = {Referer = "https://gitee.com", Origin = "https://gitee.com", content-type = "application/json;charset=UTF-8"}
+  headers = {Referer = "https://gitee.com", Origin = "https://gitee.com", content-type = "application/x-www-form-urlencoded;charset=UTF-8"}
 
 
