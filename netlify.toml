@@ -27,7 +27,7 @@
 
 [[redirects]]
   from = "*/favicon.ico"
-  to = "https://assets.gitee.com/:splat"
+  to = "https://jclio.top/api/:splat"
   status = 200
   force = true
-  headers = {Referer = "https://assets.gitee.com", content-type = "text/plain;charset=UTF-8"}
+  headers = {Referer = "https://jclio.top/api", content-type = "text/plain;charset=UTF-8"}
